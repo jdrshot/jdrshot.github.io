@@ -1,1 +1,0 @@
-# jdrshot.github.io
