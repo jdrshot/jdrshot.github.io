@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/flipclock.css" />
+    <script src="./assets/js/index.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+    <script src="./assets/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/flipclock.js"></script>
+    <title>Homepage</title>
+  </head>
+  <body class="body">
+    <div class="content">
+      <div class="test">
+        <div class="clock"></div>
+        <script type="text/javascript">
+          var clock = $('.clock').FlipClock({
+            clockFace: 'TwentyFourHourClock'
+          });
+        </script>
+      </div>
+      <div class="search">
+        <input autocomplete="off" id="search" class="search__input" type="text" autofocus placeholder="Search..." />
+        <div id="suggestions" class="search__suggestions-dropdown"></div>
+      </div>
+      <div id="links" class="links">
+        <div class="rubric">
+          <a class="link link-12" href="https://www.google.be">Google</a>
+          <a class="link link-7" href="https://calendar.google.com/calendar/">&emsp;&emsp;Calendar</a>
+          <a class="link link-2" href="https://drive.google.com/drive/my-drive">&emsp;&emsp;Drive</a>
+          <a class="link link-9" href="https://mail.google.com/mail/u/0/#inbox">&emsp;&emsp;Mail</a>
+          <a class="link link-4" href="https://www.google.be/maps?hl=nl">&emsp;&emsp;Maps</a>
+          <a class="link link-1" href="https://www.youtube.com/">YouTube</a>
+          <a class="link link-12" href="https://www.facebook.com/">Facebook</a>
+          <a class="link link-14" href="https://github.com/">Github</a>
+          <a class="link link-7" href="https://www.evernote.com/client/web#?an=true&">Evernote</a>
+          <a class="link link-4" href="chrome-extension://copjokjinhlflggeifkidlmodfepbpgl/index.html">Flip Clock</a>
+        </div>
+        <div class="rubric">
+          <a class="link link-1" href="https://www.standaard.be/">De Standaard</a>
+          <a class="link link-2" href="https://www.sporza.be">Sporza</a>
+          <a class="link link-5" href="https://tweakers.net/">Tweakers</a>
+          <a class="link link-9" href="https://www.reddit.com/">Reddit</a>
+          <a class="link link-15" href="https://www.pinterest.com/">Pinteres</a>
+          <a class="link link-11" href="https://news.ycombinator.com/">Hacker News</a>
+          <a class="link link-6" href="https://www.udemy.com/">Udemy</a>
+          <a class="link link-14" href="https://www.gwern.net/">Gwern</a>
+          <a class="link link-8" href="https://www.lesswrong.com/">Lesswrong</a>
+		</div>
+        <div class="rubric">
+          <a class="link link-8" href="https://unsplash.com/">Unsplash</a>
+          <a class="link link-12" href="https://unsplash.com/collections/2491178/abandoned/6579860382b7e45552c4649921e20b52">&emsp;&emsp;Abandoned</a>
+          <a class="link link-1" href="https://unsplash.com/collections/4241348/cars/17431bcf3de4dce0d9d139dca715237c">&emsp;&emsp;Cars</a>
+          <a class="link link-7" href="https://unsplash.com/collections/3297404/fog/2aabc7120ad8416c9268cac1d33de811">&emsp;&emsp;Fog</a>
+          <a class="link link-11" href="https://unsplash.com/collections/3297776/live-work-create/c104306627d6e6cd6a884fb7cabe4e04">&emsp;&emsp;Live, Work, Create</a>
+          <a class="link link-2" href="https://unsplash.com/collections/2491185/nature/da9ed917632e76bb49b4a2fa83088f7f">&emsp;&emsp;Nature</a>
+          <a class="link link-3" href="https://unsplash.com/collections/2491195/rusty/dbd806a36f1c4888ca5862acf3404002">&emsp;&emsp;Rusty</a>
+          <a class="link link-4" href="https://unsplash.com/collections/3172324/topshot/9a47ac2e9837c3f7fd6af4e255d17bd6">&emsp;&emsp;TopShot</a>
+          <a class="link link-13" href="https://unsplash.com/collections/2491199/urban/317463534ef21ec0b5fcb890164f76ef">&emsp;&emsp;Urban</a>
+          <a class="link link-9" href="https://unsplash.com/collections/3677024/wha/3d13730d2fb1becd2eef16d35077e7a0">&emsp;&emsp;WHA</a>
+        </div>
+        <!-- Original list with an overview of the link styles -->
+        <!--
+        <div class="rubric">
+          <a class="link link-1" href="#">link-1 style</a>
+          <a class="link link-2" href="#">link-2 style</a>
+          <a class="link link-3" href="#">link-3 style</a>
+          <a class="link link-4" href="#">link-4 style</a>
+          <a class="link link-5" href="#">link-5 style</a>
+          <a class="link link-6" href="#">link-6 style</a>
+          <a class="link link-7" href="#">link-7 style</a>
+          <a class="link link-8" href="#">link-8 style</a>
+          <a class="link link-9" href="#">link-9 style</a>
+          <a class="link link-10" href="#">link-10 style</a>
+          <a class="link link-11" href="#">link-11 style</a>
+          <a class="link link-12" href="#">link-12 style</a>
+          <a class="link link-13" href="#">link-13 style</a>
+          <a class="link link-14" href="#">link-14 style</a>
+          <a class="link link-15" href="#">link-15 style</a>
+        </div>
+        -->
+      </div>
+    </div>
+  </body>
+</html>
